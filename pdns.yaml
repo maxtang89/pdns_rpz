@@ -1,0 +1,17 @@
+incoming:
+  allow_from:
+    - "0.0.0.0/0"
+  listen:
+    - "0.0.0.0"	
+packetcache:
+  disable: true
+recursor:
+  lua_dns_script: "/etc/powerdns/dns-lua.lua"
+  forward_zones_recurse:
+    # Chunghwa Telecom DNS
+    - zone: .
+      forwarders:
+        - 168.95.1.1
+        - 168.95.192.1
+logging:
+  quiet: false
