@@ -1,0 +1,21 @@
+[
+    {
+        "name" : "default", 
+        "urls" : [
+            "https://raw.githubusercontent.com/orange1688/zflow/refs/heads/master/url_filter/malware_url_filter_domain.txt",
+            "https://raw.githubusercontent.com/orange1688/zflow/refs/heads/master/url_filter/phishing_url_filter_domain.txt"
+        ]
+    },
+    {
+        "name" : "adult", 
+        "urls" : [
+            "https://raw.githubusercontent.com/orange1688/zflow/refs/heads/master/url_filter/adult_url_filter_domain.txt"
+        ]
+    },
+    {
+        "name" : "hacking", 
+        "urls" : [
+            "https://raw.githubusercontent.com/orange1688/zflow/refs/heads/master/url_filter/hacking_url_filter_domain.txt"
+        ]
+    }
+]

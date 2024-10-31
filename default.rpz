@@ -1,0 +1,10 @@
+$TTL 1h
+@       IN      SOA     localhost. root.localhost. (
+                         42         ; serial
+                         1h         ; refresh
+                         15m        ; retry
+                         3w         ; expire
+                         1h )       ; minimum
+;
+@       IN      NS      localhost.
+; Filtering rules
